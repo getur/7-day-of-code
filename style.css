@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+
+/* reseting style */
+
+*, html {
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+
+}
+
+
+h1, h2, h3{
+    color: var(--primary-color);
+    font-size: 48px;
+}
+
+p, a, input{
+    color: #667085;
+    font-size: 16px;
+}
+
+
+
+/* styling navbar */
+
+
+.navBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    height: 80px;
+    width: 100vw;
+}
+
+.conteiner--logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 112px;
+    /* background-color: aqua; */
+}
+
+.companyName {
+    color: 3A404E;
+    font-size: 18px;
+
+
+}
+
+.conteiner--menu{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+.menu--item{
+    text-decoration: none;
+    margin-left: 32px;
+}
+
+
+.conteiner--navBtns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 112px;
+ 
+     /* background-color: blueviolet; */
+}
+
+
+/* Styling buttons */
+.btn--primary{
+
+    background-color: #8E2424;
+    color: #fff;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 8px;
+    margin-left: 5px;
+
+}
+
+.btn--secundary{
+    background-color: transparent;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 8px;
+}
+
