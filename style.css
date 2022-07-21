@@ -11,9 +11,15 @@
 
 }
 
+:root {
+    --primary-color: #8E2424;
+    --h-color: #101828; 
+    --text-color: #667085;
+  }  
+
 
 h1, h2, h3{
-    color: var(--primary-color);
+    color: var(--h-color);
     font-size: 48px;
 }
 
@@ -42,6 +48,12 @@ p, a, input{
     align-items: center;
     margin-left: 112px;
     /* background-color: aqua; */
+}
+
+.conteiner--logo img{
+    width: 26px;
+    margin-right: 8px;
+
 }
 
 .companyName {
@@ -99,4 +111,47 @@ ul {
     border: none;
     border-radius: 8px;
 }
+
+
+
+/* Styling hero section */
+
+.conteiner--main{
+
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+
+.conteiner--mainText{
+
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    margin-top: 70px;
+}
+
+.subheadline{
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.hero--headline{
+
+    margin-top: 24px;
+}
+
+.hero--paragraph{
+
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 30px;
+}
+
+
+
 
