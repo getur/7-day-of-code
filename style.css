@@ -28,6 +28,11 @@ p, a, input{
     font-size: 16px;
 }
 
+body{
+    width: 100%;
+    height: 100vh;
+}
+
 
 
 /* styling navbar */
@@ -113,23 +118,13 @@ ul {
 }
 
 
-
-/* Styling hero section */
-
-.conteiner--main{
-
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-}
-
+/* Styling textConteiner */
 
 .conteiner--mainText{
-
-    max-width: 800px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     text-align: center;
 
     margin-top: 70px;
@@ -137,21 +132,51 @@ ul {
 
 .subheadline{
     color: var(--primary-color);
-    font-weight: 600;
 }
 
 .hero--headline{
-
     margin-top: 24px;
 }
 
 .hero--paragraph{
-
     font-size: 20px;
     line-height: 30px;
     margin-top: 30px;
+    max-width: 50%;
 }
 
+/* styling metricsConteiner */
 
+.conteiner--metrics{
+    display: flex;
+    margin: 100px 110px 0px 110px;
+    justify-content: center;
 
+}
+
+.metric{
+
+    width: 300px;
+    margin-right: 32px;
+
+}
+
+.metric h2{
+    color: var(--primary-color);
+    font-size: 60px;
+}
+
+.metric span{
+    color: var(--h-color);
+    font-size: 18px;
+    margin-top: 12px;
+
+}
+
+.metric p{
+    color: var(--text-color);
+    font-size: 16px;
+    margin-top: 8px;
+
+}
 
